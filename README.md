@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" alt="prostir" src="https://github.com/SmirkZat/2602192014-Space-Invanders/tree/main/Content">
+  <img width="100%" alt="Space Invanders" src="https://github.com/user-attachments/assets/000b9d0b-88d0-4ecf-930e-ee3adc1da97b">
   </br>
 </p>
 
