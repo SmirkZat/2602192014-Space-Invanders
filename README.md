@@ -49,6 +49,9 @@ LeaderboardManager.cs	Handles data submission for player scores to Google Sheets
 BackgroundController.cs	Manages dynamic background elements, enhancing the immersive space atmosphere with moving stars and parallax effects.
 
 <br>
+## 📂Files description
+
+```
 ├── Space-Invanders                     # In this Folder, containing all the Unity project files, to be opened by a Unity Editor
    ├── ...
    ├── Assets                         #  In this Folder, it contains all our code, assets, scenes, etcwas not automatically created by Unity
@@ -57,8 +60,10 @@ BackgroundController.cs	Manages dynamic background elements, enhancing the immer
       ├── Art                     # In this folder, there are art. You can see these arts in the game via Unity
       ├── ....
    ├── ...
-   
+
+```
 <br>
+
 ## 🕹️Game controls
 The following controls are bound in-game, for gameplay and testing.
 
