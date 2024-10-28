@@ -32,21 +32,22 @@ I make this game by myself.
 
 ##  📜Scripts and Features
 
-Category	Description
-AddressableAssetsData	Manages game assets efficiently, allowing dynamic loading and memory management for textures, audio, and other resources. Ensures optimal performance across different platforms.
-Art	Contains all visual assets, including sprites for the player’s ship, alien invaders, and background elements, ensuring a cohesive retro aesthetic.
-Prefabs	Houses reusable game objects such as the player’s spacecraft, enemy ships, and projectiles. Prefabs allow for easy instantiation and manipulation during gameplay.
-Scenes	Includes different game scenes, such as the main menu, gameplay scene, and leaderboard scene, facilitating smooth transitions and gameplay flow.
-ScriptableObjects	Holds configurable game data such as enemy types, wave patterns, and score thresholds. This allows designers to tweak game parameters without modifying code.
-Scripts	Contains core scripts for gameplay mechanics and functionality, including:
-GameManager.cs	Oversees game states, such as starting the game, progressing through waves, and handling player input. Manages overall flow and difficulty scaling.
-ScoreManager.cs	Tracks player scores and lives. Responsible for submitting performance data to Google Sheets and updating scores in real-time.
-SaturationChanger.cs	Adjusts the color saturation of the game environment to enhance mood and create atmospheric effects during gameplay.
-UIHandler.cs	Manages UI components like score displays, player lives, and leaderboard integration, ensuring a smooth user experience.
-AlienSpawner.cs	Controls the spawning behavior of alien ships, determining patterns and difficulty as waves progress.
-ProjectileManager.cs	Manages the firing mechanics of the player’s projectiles, including collision detection and interactions with enemy ships.
-LeaderboardManager.cs	Handles data submission for player scores to Google Sheets and retrieves data for display in Looker Studio, ensuring the leaderboard is current and accessible.
-BackgroundController.cs	Manages dynamic background elements, enhancing the immersive space atmosphere with moving stars and parallax effects.
+|  Script       | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| AddressableAssetsData |	Manages game assets efficiently, allowing dynamic loading and memory management for textures, audio, and other resources. Ensures optimal performance across different platforms. |
+| Art |	Contains all visual assets, including sprites for the player’s ship, alien invaders, and background elements, ensuring a cohesive retro aesthetic. |
+| Prefabs |	Houses reusable game objects such as the player’s spacecraft, enemy ships, and projectiles. Prefabs allow for easy instantiation and manipulation during gameplay. |
+| Scenes |	Includes different game scenes, such as the main menu, gameplay scene, and leaderboard scene, facilitating smooth transitions and gameplay flow. |
+| ScriptableObjects |	Holds configurable game data such as enemy types, wave patterns, and score thresholds. This allows designers to tweak game parameters without modifying code.|
+| Scripts |	Contains core scripts for gameplay mechanics and functionality, including: 
+GameManager.cs	Oversees game states, such as starting the game, progressing through waves, and handling player input. Manages overall flow and difficulty scaling. |
+ScoreManager.cs	Tracks player scores and lives. Responsible for submitting performance data to Google Sheets and updating scores in real-time. |
+SaturationChanger.cs	Adjusts the color saturation of the game environment to enhance mood and create atmospheric effects during gameplay. |
+UIHandler.cs	Manages UI components like score displays, player lives, and leaderboard integration, ensuring a smooth user experience. |
+AlienSpawner.cs	Controls the spawning behavior of alien ships, determining patterns and difficulty as waves progress. |
+ProjectileManager.cs	Manages the firing mechanics of the player’s projectiles, including collision detection and interactions with enemy ships. |
+LeaderboardManager.cs	Handles data submission for player scores to Google Sheets and retrieves data for display in Looker Studio, ensuring the leaderboard is current and accessible. |
+BackgroundController.cs	Manages dynamic background elements, enhancing the immersive space atmosphere with moving stars and parallax effects. |
 
 <br>
 ## 📂Files description
